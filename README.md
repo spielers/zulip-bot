@@ -8,9 +8,13 @@ Run the following commands from Your root directory
 ## Step 1
 
 `git clone https://github.com/spielers/zulip_bot.git`  /* To clone this repository */
+
 `cd zulip-bot ` /* To Navigate to the cloned repo */
+
 `cd python-zulip-api` - navigate into your cloned repository.
+
 `python3 ./tools/provision` - install all requirements in a Python virtualenv.
+
 The output of provision will end with a command of the form source .../activate; run that command to enter the new virtualenv. 
 
 
